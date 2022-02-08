@@ -1,0 +1,42 @@
+<html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	<title>Online Calculator</title>
+</head>
+<body>
+	<div id="calculator"> 
+		<div class="screen"> 
+			<h1 id="result"></h1>
+		</div>
+
+		<div id="btn-grid">
+			<div><button onclick="percentage()">%</button></div>
+			<div><button onclick="del()">CE</button></div>
+			<div><button onclick="del()">C</button></div>
+			<div><button onclick="erase()">DEL</button></div>
+			<div><button onclick="inverse()">1/x</button></div>
+			<div><button onclick="power()">x<span>&#178;</span></button></div>
+			<div><button onclick="sqrtx()"><span>&#8730x</span></button></div>
+			<div><button id="div-btn" onclick="division()">/</button></div>
+			<div><button onclick="seven()">7</button></div>
+			<div><button onclick="eight()">8</button></div>
+			<div><button onclick="nine()">9</button></div>
+			<div><button id="multiply-btn" onclick="multiply()">&#215</button></div>
+			<div><button onclick="four()">4</button></div>
+			<div><button onclick="five()">5</button></div>
+			<div><button onclick="six()">6</button></div>
+			<div><button id="minus-btn" onclick="minus()">-</button></div>
+			<div><button onclick="one()">1</button></div>
+			<div><button onclick="two()">2</button></div>
+			<div><button onclick="three()">3</button></div>
+			<div><button id="plus-btn" onclick="plus()">+</button></div>
+			<div><button onclick="signcng()">+/-</button></div>
+			<div><button onclick="zero()">0</button></div>
+			<div><button onclick="point()">.</button></div>
+			<div><button onclick="equal()">=</button></div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+
+</body>
+</html>
